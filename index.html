@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body>
+    <header>
+        <div class="personal">
+            <img src="./resources/img/logo.jpg" class="logo" alt="logo">
+            <h1 class="projName">My Personal Portfolio</h1>
+            <p class="name">made by Yavor Petkov </p>
+        <!-- </div> -->
+        <!-- <div class="menu"> -->
+            <nav class="menu-items">
+                <ul class="menu">
+                    <li class="Home"><a href="#">Home</a></li>
+                    <li class="Aboutme"><a href="#About">About Me</a></li> 
+                    <li class="Projects"><a href="#Projects">Projects</a></li>
+                    <li class="Skills"><a href="#Skills">Skills</a></li>
+                    <li class="Contact"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+        <h1 class="greeting">Hello, welcome to my website</h1>
+        </div>
+        <div class="mainDisplay">
+            <div class="aboutContent">
+            <section class="about">
+        <h2 class="AboutMe">About Me</h2>
+            <p>Hello! My name is Yavor Petkov and I am currently working in 
+                Customer Service. I have decided to study programming. I started my
+                 CodeCademy front-end dev course in the end of May 2021. I have been 
+                 making progress at a moderate pace when I'm not working.</p>
+              <p> I have decided that my future would be better suited if I switched
+                to work as a front-end programmer, as I have always had interest in
+                programming and everything we see on the Internet has been programmed by 
+                someone else. This really inspires me. I am a hard-working individual, exceptional
+                at working in a team, but also realiable on an individual basis.
+                 </p>
+                 <p> In my free time I like to read fantasy books, go on a hike and to spend time with
+                    my friends and family.  
+                 </p>
+                 </section>
+                 </div>
+                 <br>
+                <hr>
+                <div class="projectsSection">
+                 <section class="projects">
+                 <h2 class="ProjectsH2">Projects</h2>
+                 <p>You can see some of the projects I have worked on from CodeCademy.
+                    They are so far rather simple projects, but should you have any 
+                    questions, then please contact me and let me know by clicking <a href="./contact.html">here</a>
+                    The projects attached below are part of the Front-end Path.
+                 </p>   
+                 <div class="containerProjectCard">
+                    <div class="containerProjectCardImages">
+                    <figure>
+                        <img src="./resources/img/formastorypng.png" alt="Form-A-Story image">
+                    </div>
+                        <figcaption>    
+                        <details>
+                            <summary>Form A Story</summary>
+                            <p>This project generates a story based on user input to 
+                               this personalised program.
+                            </p>
+                        </details>
+                    </figcaption>
+                </figure>
+                        </div>
+                    <div class="containerProjectCard">
+                        <div class="containerProjectCardImages">
+                        <figure>
+                            <img src="./resources/img/pianokeys.png" alt="Piano Keys image">
+                        </div>
+                            <figcaption>
+                        <details>
+                            <summary>Piano Keys</summary>
+                            <p>This is a beginner-friendly interactive piano game. The player
+                                is with DOM (Document Object Model) events in JavaScript.
+                            </p>
+                        </details>
+                    </figcaption>
+                </figure>
+                    </div>
+                    <div class="containerProjectCard">
+                        <div class="containerProjectCardImages">
+                        <figure>
+                            <img src="./resources/img/tsunamicoffeepng.png" alt="Tsunami coffee image">
+                        </div>
+                        <figcaption>
+                        <details>
+                            <summary>Tsunami Coffee</summary>
+                            <p>A basic homepage from CodeCademy for a cafe. It is for
+                                responsive web design practice. </p>
+                        </details>            
+                    </figcaption>
+                </figure>
+                    </div>
+                 <br>
+                 </section>
+                 <hr>
+                 </div>
+                 <section class="SkillsDisplay">
+                    <h2 class="SkillsStatement">Skills Gained</h2>
+                    <p>By doing the Front-end Path, I have started developing the following skills
+                        for my future professional carrer. I have acquired the programming-related 
+                        skills from doing my CodeCademy course, self-teaching, Google Search (mainly
+                        stackoverflow and MDN).
+                    </p>
+                    <div class="skillsContainer">
+                    <div class="skillCard">
+                        <figure>
+                        <img src="./resources/img/htmllogo.png" alt="HTML logo">
+                            <figcaption>
+                                <h3>HTML</h3>
+                                <p>Level: Intermediate</p>
+                            </figcaption>
+                    </figure>
+                    </div>
+                    <div class="skillCard">
+                        <figure>
+                            <img src="./resources/img/csslogo.jpg" alt="CSS logo">
+                            <figcaption>
+                                <h3>CSS</h3>
+                                <p>Level: Intermediate</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="skillCard">
+                        <figure>
+                            <img src="./resources/img/jslogo.png" alt="JavaScript logo">
+                            <figcaption>
+                            <h3>JavaScript</h3>
+                                <p>Level: Basic</p>
+                        </figcaption>
+                        </figure>
+                    </div>
+                    <div class="skillCard">
+                        <figure>
+                            <img src="./resources/img/gitlogo.png" alt="Git logo">
+                            <figcaption>
+                                <h3>Git</h3>
+                                <p>Level: Basic </p>
+                            </figcaption>
+                        </figure>
+                    </div>    
+                    </div>
+                 </section>
+        </div>
+        <div class="buttonArea">
+            <hr>
+            <button class="button" onclick="myFunction()">Light / Dark Mode</button>
+            <!-- <label class="switch" onlick="func()">
+                <input  type="checkbox" onlick="func()">
+                <span class="slider round" onlick="func()"></span>
+            </label> -->
+        </div>
+    </main>
+
+<footer>
+    <h3>My Personal Portfolio Website</h2>
+    <h4>Created by: Yavor Petkov</h3>
+    <h5>&copy; 2023</h5>
+</footer>
+<script> src="./script.js"</script>
+<!-- <script>
+    function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark");
+    }
+</script> -->
+</body>
+</html>

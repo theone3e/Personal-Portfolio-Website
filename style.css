@@ -1,0 +1,369 @@
+html{
+    background-color: aliceblue;
+    line-height: 1.5em;
+}
+
+header{
+    /* margin:2.5em; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo {
+    max-height: 80px;
+    position: flex;
+    z-index: 10;
+}
+
+.projName{
+    color:blueviolet;
+    margin:auto;
+    /* font-size: 16px; */
+    /* margin-left: 1000px; */
+}
+.name{
+    margin: auto;
+    font-size: 1.125em;
+    color:#98ff99;
+}
+
+.nav{
+    display:flex;
+}
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.ul{
+    display: flex;
+    /* padding: 0px 2em; */
+    /* color:red; */
+}
+nav.menu-items {
+    color:blueviolet;
+}
+a,a:before, a:after {
+color:#98ff99;
+text-decoration: none;
+}
+a:active{ 
+color:blueviolet;
+}
+.li{
+    display:flex;
+    position:absolute;
+    flex-direction: column;
+    list-style: none;
+    align-content: flex-end;
+    justify-content: flex-end;
+    /* padding: 0 2em; */
+    /* color:red; */
+}
+/* .ul::before,.ul::after{
+    /* color:aquamarine; 
+}
+*/
+ 
+.Home{
+    /* padding:0.5em; */
+    margin: 0px 15px;
+    font-size:1.125em;
+}
+.Aboutme{
+    /* padding: 0.5em; */
+    margin: 0px 15px;
+    font-size:1.125em;
+}
+.Projects{
+    /* padding: 0.5em; */
+    margin: 0px 15px;
+    font-size:1.125em;
+}
+.Skills{
+    /* padding: 0.5em; */
+    margin: 0px 15px;
+    font-size:1.125em;
+}
+.Contact{
+    /* padding: 0.5em; */
+    margin:0px 20px;
+    font-size:1.125em;
+}
+
+.personal{
+    display:flex;
+    /* justify-content:flex-start; */
+    align-items: center;
+    position:fixed;
+    background-color: rgb(137, 148, 153);
+    /* background-color: grey; */
+    width:100%;
+    border: lightgrey;
+    border-style:ridge;
+    /* opacity: 0.95; */
+}
+.banner{
+    /* margin-top: -15px; */
+    background-image: url(./resources/img/class.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:20em;    
+}
+.greeting{
+    margin-top: 82.5px;
+display:flex;
+background: rgba(0,0,0,0.5);
+/* overflow:hidden; */
+width: 100%;
+height:100%;
+align-items: center;
+justify-content: center;
+color: #98ff99;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.AboutMe{
+    text-align: left;
+}
+
+.ProjectsH2,.SkillsStatement{
+    text-align: center;
+    /* margin-top: 50px; */
+    /* font-size: 1.125em; */
+}
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    text-align:justify;
+    background-color: aliceblue;
+    font-size: 1.125em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: -80px;
+}
+
+section.projects a{
+    color:blueviolet;
+    font-weight: 550;
+}
+
+.projectsSection{
+    font-size: 1.125em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:aliceblue;
+}
+
+.containerProjectCard{
+    display:inline-flex;
+    flex-direction:column;
+    background-color:rgba(162,228,184,0.35);
+    border-radius: 25px;
+    align-items:center;
+    /* justify-content:left; */
+    height:375px;
+    width: 450px;
+    /* overflow:hidden; */
+    /* background-repeat: no-repeat;
+    background-size: 1000px 1000px; */
+    padding: 0px 20px;
+    
+    /* for monitor */
+    /* margin-left: 250px; */
+    /* for laptop screen */ 
+    /* margin-left: 100px;  */
+    
+}
+.containerProjectCard img{
+    /* background-repeat: no-repeat; */
+    /* width:fit-content; */
+    height: 200px;
+    position:static; 
+    z-index: 1;
+}
+
+
+.SkillsDisplay{
+    font-size: 1.125em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skillCard{
+    display:inline-flex;
+    flex-direction: column;
+    background-color:rgba(162,228,184,0.35);
+    border-radius: 25px;
+    align-items: center;
+    height:325px;
+    width:250px;
+    padding: 0px 5px;
+    margin: 5px 10px;
+    justify-content: space-around;
+    justify-items: center;
+    /* flex-wrap:nowrap; */
+
+}
+
+.skillCard img{
+    /* background-repeat: no-repeat; */
+    justify-content: center;
+    justify-items: center;
+    height:175px;
+    width: 200px;
+    position:static;
+    margin: 0px auto;
+}
+
+.skillsContainer{
+    /* margin: 0px auto; */
+    justify-content: center;
+    justify-items: center;
+    position:sticky;
+    display: inline-flex;
+    /* for monitor */
+    /* margin-left:700px; */
+    /* for laptop */
+    /* margin-left:400px; */
+    z-index: 1;
+}
+
+.skillCard h3{
+    text-align: center;
+}
+
+footer{
+    font-size: 0.875em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    background-color: rgba(137, 148, 153,0.7);
+    color:blueviolet;
+    font-weight: 800;
+}
+
+h2.ProjectsH2,h2.SkillsStatement{
+    margin-top: -40px;
+}
+
+hr{
+    border: 1px solid black;
+    margin:75px 20px;
+}
+
+@media only screen and (min-width:1900px){
+    .skillsContainer{
+        margin-left:400px;
+      }
+    .containerProjectCard{
+        margin-left:100px;
+    }
+}
+
+@media only screen and (min-width:2400px){
+    .skillsContainer{
+        margin-left:700px;
+    }
+    .containerProjectCard{
+        margin-left:250px;
+    }
+}
+
+.buttonArea hr{
+    /* margin-top: 100px; */
+    /* padding-top: 1000px; */
+    margin-bottom: 40px;
+}
+
+
+.button{
+    display: flex;
+    margin-bottom:40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    size: 20px;
+    height:50px;
+    width:150px;
+}
+
+/* .switch {
+    position: relative;
+    display: flex;
+    width: 60px;
+    height: 34px;
+    margin: 40px auto;
+  }
+  
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+ 
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  } */
+
+
+
+  /* .myClass{ 
+    background-color: red;
+    color:red;
+  } */
+
+  .dark{
+    background-color:  #222;
+    color:#e6e6e6
+  }
